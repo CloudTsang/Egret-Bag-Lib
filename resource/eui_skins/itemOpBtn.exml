@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.itemOpBtn"
+	 width="150"
+	height="50" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Group percentHeight="100" percentWidth="100">
+		<e:Rect percentHeight="100" percentWidth="100" fillColor="0xFF8C00" ellipseWidth="25" fillColor.down="0xD07301"/>
+		<e:Label id="labelDisplay" percentHeight="80" percentWidth="80" horizontalCenter="0" verticalCenter="0" verticalAlign="middle" textAlign="center" multiline="false" textColor="0x584F4F"/>
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

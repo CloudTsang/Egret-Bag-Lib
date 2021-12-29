@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="itemListObj" width="500" height="100" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Rect  includeIn="down" percentHeight="96" percentWidth="100" ellipseWidth="30" horizontalCenter="0" verticalCenter="0" fillColor="0xE7E798"/>
+	<e:Group percentHeight="100" percentWidth="100" x="0" y="0">
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+		<e:Group width="100" percentHeight="100"  scaleX="1" scaleY="1">
+			<e:Image id="itemIcon" percentWidth="60" percentHeight="60" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Label id="txtName" text="{data.name}" x="106" percentHeight="100" verticalCenter="0" textAlign="left" verticalAlign="middle" textColor="0x363232" size="44"/>
+	</e:Group>
+	<e:Group percentHeight="100" percentWidth="100" x="0" y="0">
+		<e:Label id="txtNum" text="{data.num}" percentHeight="100" verticalAlign="middle" textColor="0x363232" size="44"/>
+		<e:Group percentWidth="2" percentHeight="100"/>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="right"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

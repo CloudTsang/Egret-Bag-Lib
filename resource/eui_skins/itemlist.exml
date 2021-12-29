@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.itemlist"
+	 width="400"
+	height="200" xmlns:e="http://ns.egret.com/eui">
+	<e:Scroller id="itemListScroller" percentWidth="100" percentHeight="100" x="0" y="0">
+		<e:List id="itemListContainer" percentWidth="100" percentHeight="100" x="0" y="0" itemRendererSkinName="itemListObj"/>
+	</e:Scroller>
+</e:Skin>

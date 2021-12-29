@@ -1,0 +1,13 @@
+{
+	"skins": {},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/eui_skins/itemdetail.exml",
+		"resource/eui_skins/itemlist.exml",
+		"resource/eui_skins/itemListObj.exml",
+		"resource/eui_skins/itemOpBtn.exml",
+		"resource/eui_skins/itemOpBtnPanel.exml",
+		"resource/eui_skins/ItemRendererSkin.exml"
+	],
+	"path": "resource/bag.thm.json"
+}

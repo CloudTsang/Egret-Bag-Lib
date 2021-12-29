@@ -1,0 +1,16 @@
+{
+	"groups": [
+		{
+			"keys": "icon_item_main_json",
+			"name": "backbag"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/itemicon/icon_item_main.json",
+			"type": "sheet",
+			"name": "icon_item_main_json",
+			"subkeys": "accessory,all,armor,armor2,battle,bones,bow,claymore,helmet,keys,loot,mine,normal,plant,recipe,recoveritem,ring,rod,spear,special,sword,weapon"
+		}
+	]
+}

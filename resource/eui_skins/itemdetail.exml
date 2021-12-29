@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.itemdetail"
+	 width="500"
+	height="150" xmlns:e="http://ns.egret.com/eui">
+	<e:Group percentHeight="100" percentWidth="100" x="0" y="0">
+		<e:Rect percentHeight="100" percentWidth="100" x="0" y="0" ellipseWidth="50" fillColor="0xFF8C00"/>
+		<e:Group percentHeight="100" percentWidth="100" x="0" y="0">
+			<e:Group id="containerIcon" percentHeight="100" percentWidth="25" horizontalCenter="0" verticalCenter="0" visible="true">
+				<e:Rect percentHeight="80" percentWidth="80" fillColor="0xFFDF52" horizontalCenter="0" verticalCenter="0" ellipseWidth="50"/>
+				<e:layout ellipseWidth="50">
+					<e:BasicLayout/>
+				</e:layout>
+			</e:Group>
+            
+			<e:Group id="containerDetail" percentHeight="100" percentWidth="75" >
+            <e:Rect percentHeight="80" percentWidth="90" fillColor="0xFFDF52" horizontalCenter="0" verticalCenter="0" ellipseWidth="50"/>
+				<e:Label id="txtDetail" text="道具描述"  percentHeight="70" percentWidth="80" horizontalCenter="0" verticalCenter="0" size="32" textColor="0x584F4F"/>
+				<e:layout ellipseWidth="50">
+					<e:BasicLayout/>
+				</e:layout>
+            </e:Group>
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+		</e:Group>
+		<e:Label id="txtNum" height="50" percentWidth="100" textColor="0x584F4F" bottom="10" right="10" verticalAlign="bottom" textAlign="right" size="50" bold="true" text="10"/>
+	</e:Group>
+</e:Skin>

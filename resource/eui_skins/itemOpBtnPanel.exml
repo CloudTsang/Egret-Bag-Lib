@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.itemOpBtnPanel"
+	 width="500"
+	height="50" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<e:Group percentHeight="100" percentWidth="100">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center"/>
+		</e:layout>
+		<e:Button id="btnLeft" label="丢弃" x="93" y="3" skinName="skins.itemOpBtn"/>
+		<e:Group percentWidth="5" percentHeight="100" x="191" y="32"/>
+		<e:Button id="btnRight" label="使用" x="242" y="7" skinName="skins.itemOpBtn"/>
+	</e:Group>
+</e:Skin>

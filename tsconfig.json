@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"noImplicitAny": false,
+		"sourceMap": false,
+		"declaration": true,
+		"outFile": "bin/libs/backbaglib/backbaglib.js"
+	},
+	"include": [
+		"src",
+		"libs",
+		"resource"
+	],
+	"files": [
+		"libs/egret.d.ts",
+		"libs/eui.d.ts",
+		"libs/assetsmanager.d.ts",
+		"src/BackBag.ts"
+	]
+}
